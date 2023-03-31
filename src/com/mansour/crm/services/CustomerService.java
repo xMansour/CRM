@@ -1,12 +1,12 @@
-package com.mansour.crm.dao;
+package com.mansour.crm.services;
 
 import com.mansour.crm.entities.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
-
+public interface CustomerService {
     List<Customer> getCustomers();
+
 
     void saveCustomer(Customer customer);
 

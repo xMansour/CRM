@@ -1,3 +1,4 @@
+<% response.sendRedirect("customer/list");%>
 <!doctype html>
 <html lang="en">
 <head>
